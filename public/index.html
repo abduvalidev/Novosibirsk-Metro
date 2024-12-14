@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Novosibirsk Metro</title>
+</head>
+<body>
+  <!-- Header -->
+  <header class="absolute top-0 left-0 z-20 w-full py-2">
+    <nav class="max-w-base flex items-center justify-between gap-x-5 mx-auto px-4 lg:px-6">
+      <!-- Logo -->
+      <a class="shrink-0" href="#">
+        <img class="size-10 md:size-16 lg:size-[131px] rounded-full" src="./assets/img/logo.jpeg" alt="logo">
+      </a>
+      <div class="flex gap-8">
+        <button class="border-2 border-white text-white text-xs flex items-center h-12 lg:h-[70px] font-medium px-3.5 lg:px-7 transition duration-300 hover:bg-white/10">КОРЗИНА</button>
+        <button class="border-2 border-white text-white text-xs flex items-center h-12 lg:h-[70px] font-medium px-3.5 lg:px-7 transition duration-300 hover:bg-white/10">ВХОД</button>
+      </div>
+    </nav>
+  </header>
+  <!-- Main -->
+  <main>
+    <!-- Hero -->
+    <section class="relative hero-section overflow-x-clip py-[68px] md:py-20 lg:py-32">
+      <div class="relative z-10 flex flex-col lg:flex-row lg:justify-between gap-5 max-w-base mx-auto px-4 lg:px-6 lg:mt-3">
+        <div class="max-w-[525px] w-full">
+          <h1 class="font-exo font-semibold text-brand-primary text-2xl/[30px] md:text-4xl/[45px] lg:text-[52px]/[65px]">
+            Добро пожаловать в метрополитен Новосибирска!
+          </h1>
+          <p class="font-ptsans text-xs/[19.5px] md:text-base lg:text-2xl/[36px] text-white md:text-brand-secondary mt-3">
+            Метрополитен Новосибирска — это современная и удобная система общественного транспорта, обеспечивающая быструю и безопасную перевозку пассажиров по городу. С 1986 года мы связываем ключевые районы города и помогаем вам добраться до места назначения без лишних хлопот. Узнайте больше о наших маршрутах, расписании и услугах, которые мы предлагаем!
+          </p>
+        </div>
+        <div class="max-w-[569px] lg:max-w-[677px] w-full h-[253px] md:h-[357px] lg:h-[471px] rounded-[97px] overflow-hidden mx-auto lg:mx-0">
+          <img class="size-full object-cover" src="./assets/img/train.png" alt="train">
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
