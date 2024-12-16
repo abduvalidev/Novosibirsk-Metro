@@ -1,44 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- CSS -->
-  <link rel="stylesheet" href="./css/styles.css">
-  <title>Novosibirsk Metro</title>
-</head>
-<body>
-  <!-- Header -->
-  <header class="absolute top-0 left-0 z-20 w-full py-2">
-    <nav class="max-w-base flex items-center justify-between gap-x-5 mx-auto px-4 lg:px-6">
-      <!-- Logo -->
-      <a class="shrink-0" href="#">
-        <img class="size-10 md:size-16 lg:size-[131px] rounded-full" src="./assets/img/logo.jpeg" alt="logo">
-      </a>
-      <div class="flex gap-8">
-        <button class="border-2 border-white text-white text-xs flex items-center h-12 lg:h-[70px] font-medium px-3.5 lg:px-7 transition duration-300 hover:bg-white/10">КОРЗИНА</button>
-        <button class="border-2 border-white text-white text-xs flex items-center h-12 lg:h-[70px] font-medium px-3.5 lg:px-7 transition duration-300 hover:bg-white/10">ВХОД</button>
-      </div>
-    </nav>
-  </header>
-  <!-- Main -->
-  <main>
-    <!-- Hero -->
-    <section class="relative hero-section overflow-x-clip py-[68px] md:py-20 lg:py-32">
-      <div class="relative z-10 flex flex-col lg:flex-row lg:justify-between gap-5 max-w-base mx-auto px-4 lg:px-6 lg:mt-3">
-        <div class="max-w-[525px] w-full">
-          <h1 class="font-exo font-semibold text-brand-primary text-2xl/[30px] md:text-4xl/[45px] lg:text-[52px]/[65px]">
-            Добро пожаловать в метрополитен Новосибирска!
-          </h1>
-          <p class="font-ptsans text-xs/[19.5px] md:text-base lg:text-2xl/[36px] text-white md:text-brand-secondary mt-3">
-            Метрополитен Новосибирска — это современная и удобная система общественного транспорта, обеспечивающая быструю и безопасную перевозку пассажиров по городу. С 1986 года мы связываем ключевые районы города и помогаем вам добраться до места назначения без лишних хлопот. Узнайте больше о наших маршрутах, расписании и услугах, которые мы предлагаем!
-          </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Novosibirsk Metro</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="absolute top-0 left-0 z-20 w-full py-2">
+      <nav
+        class="max-w-base flex items-center justify-between gap-x-5 mx-auto px-4 lg:px-6"
+      >
+        <!-- Logo -->
+        <a class="shrink-0" href="#">
+          <img
+            class="size-10 md:size-16 lg:size-[131px] rounded-full"
+            src="./assets/img/logo.jpeg"
+            alt="logo"
+          />
+        </a>
+        <div class="flex gap-8">
+          <button
+            class="border-2 border-white text-white text-xs flex items-center h-12 lg:h-[70px] font-medium px-3.5 lg:px-7 transition duration-300 hover:bg-white/10"
+          >
+            КОРЗИНА
+          </button>
+          <button
+            class="border-2 border-white text-white text-xs flex items-center h-12 lg:h-[70px] font-medium px-3.5 lg:px-7 transition duration-300 hover:bg-white/10"
+          >
+            ВХОД
+          </button>
         </div>
-        <div class="max-w-[569px] lg:max-w-[677px] w-full h-[253px] md:h-[357px] lg:h-[471px] rounded-[97px] overflow-hidden mx-auto lg:mx-0">
-          <img class="size-full object-cover" src="./assets/img/train.png" alt="train">
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Hero -->
+      <section
+        class="relative hero-section overflow-x-clip py-[68px] md:py-20 lg:py-32"
+      >
+        <div
+          class="relative z-10 flex flex-col lg:flex-row lg:justify-between gap-5 max-w-base mx-auto px-4 lg:px-6 lg:mt-3"
+        >
+          <div class="max-w-[525px] w-full">
+            <h1
+              class="font-exo font-semibold text-brand-primary text-2xl/[30px] md:text-4xl/[45px] lg:text-[52px]/[65px]"
+            >
+              Добро пожаловать в метрополитен Новосибирска!
+            </h1>
+            <p
+              class="font-ptsans text-xs/[19.5px] md:text-base lg:text-2xl/[36px] text-white md:text-brand-secondary mt-3"
+            >
+              Метрополитен Новосибирска — это современная и удобная система
+              общественного транспорта, обеспечивающая быструю и безопасную
+              перевозку пассажиров по городу. С 1986 года мы связываем ключевые
+              районы города и помогаем вам добраться до места назначения без
+              лишних хлопот. Узнайте больше о наших маршрутах, расписании и
+              услугах, которые мы предлагаем!
+            </p>
+            <a
+              class="w-max block font-ptsans font-bold text-brand-primary transition duration-300 hover:opacity-75 overline decoration-2 decoration-[#FFCE50] mt-3"
+              href="#"
+              >Узнать больше</a
+            >
+          </div>
+          <div
+            class="max-w-[569px] lg:max-w-[677px] w-full h-[253px] md:h-[357px] lg:h-[471px] rounded-[97px] overflow-hidden mx-auto lg:mx-0"
+          >
+            <img
+              class="size-full object-cover"
+              src="./assets/img/train.png"
+              alt="train"
+            />
+          </div>
         </div>
-      </div>
-    </section>
-  </main>
-</body>
+      </section>
+      <!-- Payment Methods -->
+      <section class="">
+        <div class="max-w-base mx-auto px-4 lg:px-6">
+          <div class="w-max bg-[#D9D9D9] rounded-full px-8 py-3.5">
+            <h4
+              class="font-exo font-semibold text-black text-xl lg:text-[48px]/[60px]"
+            >
+              Способы оплаты
+            </h4>
+          </div>
+
+          <div class="w-full max-w-[620px] flex items-center gap-3 lg:gap-7 mt-4 lg:mt-24">
+            <div class="min-w-[88px] lg:min-w-[234px]">
+              <img
+                class="size-11 lg:size-[85px] mx-auto"
+                src="./assets/img/coin.png"
+                alt="coin"
+              />
+            </div>
+            <div class="w-full flex items-center justify-between">
+              <h5 class="font-inter font-bold text-xs lg:text-2xl">
+                Жетон <br />
+                <span class="text-brand-red"> 35 рублей </span>
+              </h5>
+              <button
+                class="border-2 border-brand-red text-brand-red text-xs hidden lg:flex items-center h-12 lg:h-[70px] font-medium px-3.5 lg:px-7 transition duration-300 hover:bg-white/20"
+              >
+                КОРЗИНА
+              </button>
+            </div>
+          </div>
+          <div class="grid lg:grid-cols-2 gap-5 translate-y-5">
+            <!-- 1 -->
+            <div class="max-w-[620px] flex items-center gap-3 lg:gap-7">
+              <img class="w-[88px] lg:w-[234px]" src="./assets/img/card.png" alt="card-2" />
+              <h5 class="font-inter font-bold text-xs lg:text-2xl">
+                Бесконтактная банковская карта
+                <br />
+                <span class="text-brand-red"> 35 рублей </span>
+              </h5>
+            </div>
+            <!-- 2 -->
+            <div class="max-w-[620px] flex items- gap-3 lg:gap-7">
+              <img
+                class="w-[88px] lg:w-[234px]"
+                src="./assets/img/card-2.png"
+                alt="card-2"
+              />
+              <h5 class="font-inter font-bold text-xs lg:text-2xl">
+                Карта школьника
+                <br />
+                <span class="text-brand-red"> 17,50 рублей </span>
+              </h5>
+            </div>
+            <!-- 3 -->
+            <div class="max-w-[620px] flex items-center gap-3 lg:gap-7">
+              <img
+                class="w-[88px] lg:w-[234px]"
+                src="./assets/img/card-3.png"
+                alt="card-3"
+              />
+              <h5 class="font-inter font-bold text-xs lg:text-2xl">
+                Единая транспортная карта онлайн
+                <br />
+                <span class="text-brand-red"> 35 рублей </span>
+              </h5>
+            </div>
+            <!-- 4 -->
+            <div class="max-w-[620px] flex items-center gap-3 lg:gap-7">
+              <img
+                class="w-[88px] lg:w-[234px]"
+                src="./assets/img/card-4.png"
+                alt="card-4"
+              />
+              <h5 class="font-inter font-bold text-xs lg:text-2xl">
+                Студенческая карта
+                <br />
+                <span class="text-brand-red">
+                  17,50 рублей Разовый проезд 1060 рублей в месяц (тариф
+                  “Безлемитный”
+                </span>
+              </h5>
+            </div>
+            <!-- 5 -->
+            <div class="max-w-[620px] flex items-center gap-3 lg:gap-7">
+              <img class="w-[88px] lg:w-[234px]" src="./assets/img/card-5.png" alt="card-5" />
+              <h5 class="font-inter font-bold text-xs lg:text-2xl">
+                Единая транспортная карта
+                <br />
+                <span class="text-brand-red"> 
+                  34 рубля Разовый проезд 2650 рублей в
+                  месяц (тариф “Безлимитный” 
+                </span>
+              </h5>
+            </div>
+            <!-- 6 -->
+            <div class="max-w-[620px] flex items-center gap-3 lg:gap-7">
+              <img class="w-[88px] lg:w-[234px]" src="./assets/img/card-6.png" alt="card-6" />
+              <h5 class="font-inter font-bold text-xs lg:text-2xl">
+                Дисконтная социальная карта
+                50% скидка на оплату проезда 
+              </h5>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
