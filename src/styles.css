@@ -22,3 +22,21 @@
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+
+.shadow-custom {
+  box-shadow: 0px 4px 15px 0px #0000001F;
+}
+
+.custom-div {
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px #0000001F;
+}
+.custom-div::before {
+  content: '';
+  background-color: white;
+  transform: translateY(-50%);
+  box-shadow: inset -10px 0 15px 0px #0000001F;
+  @apply rounded-full absolute size-[75px] md:size-[108px] -translate-x-1/2 top-1/2 -translate-y-1/2
+}
