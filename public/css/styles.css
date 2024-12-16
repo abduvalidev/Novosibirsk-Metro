@@ -878,6 +878,10 @@ body{
   padding-top: 68px;
   padding-bottom: 68px;
 }
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
 .pb-24{
   padding-bottom: 6rem;
 }
@@ -1402,6 +1406,16 @@ body{
   .lg\:py-\[86px\]{
     padding-top: 86px;
     padding-bottom: 86px;
+  }
+
+  .lg\:px-32{
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .lg\:px-40{
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 
   .lg\:pb-32{
