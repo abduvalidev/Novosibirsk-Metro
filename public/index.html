@@ -39,7 +39,7 @@
     <main>
       <!-- Hero -->
       <section
-        class="relative hero-section overflow-x-clip py-[68px] md:py-20 lg:py-32"
+        class="relative hero-section overflow-x-clip py-[68px] md:py-20 lg:py-32 pb-56 md:pb-0 lg:pb-32"
       >
         <div
           class="relative z-10 flex flex-col lg:flex-row lg:justify-between gap-5 max-w-base mx-auto px-4 lg:px-6 lg:mt-3"
@@ -78,9 +78,9 @@
         </div>
       </section>
       <!-- Payment Methods -->
-      <section class="">
+      <section class="lg:pt-32">
         <div class="max-w-base mx-auto px-4 lg:px-6">
-          <div class="w-max bg-[#D9D9D9] rounded-full px-8 py-3.5">
+          <div class="w-max bg-[#D9D9D9] rounded-full px-2 md:px-3 lg:px-8 py-3 md:py-0 lg:py-3.5 -translate-y-1/2 md:translate-y-0">
             <h4
               class="font-exo font-semibold text-black text-xl lg:text-[48px]/[60px]"
             >
@@ -183,6 +183,75 @@
           </div>
         </div>
       </section>
+      <!-- Почему с нами выгоднее -->
+      <section class="py-24 lg:py-[86px]">
+        <div class="max-w-base mx-auto px-0 lg:px-6">
+          <div class="aspect-[1264/453] max-h-[453px] relative overflow-hidden">
+            <div class="relative z-10 -translate-x-1/4 w-full max-w-[230px] sm:max-w-[308px] md:max-w-[450px] lg:max-w-[745px] h-full bg-brand-red flex items-center justify-center pl-5 skew-x-[30deg]">
+              <h2 class="hidden md:block font-exo font-semibold text-white text-[36px]/[45px] lg:text-[48px] -skew-x-[30deg] translate-x-5 lg:translate-x-0">Почему с нами <br> выгоднее?</h2>
+              <div class="bg-brand-red/30 absolute top-0 right-0 translate-x-full w-12 md:w-20 lg:w-36 h-full"></div>
+            </div>
+            <img class="absolute z-0 min-w-[921px] h-full object-cover rounded-[40px] top-0 right-0 poez" src="./assets/img/poez.png" alt="poez">
+          </div>
+          <h2 class="block md:hidden font-exo font-semibold text-brand-primary text-[36px]/[45px] lg:text-[48px] translate-x-5 lg:translate-x-0 translate-y-20">Почему с нами <br> выгоднее?</h2>
+          <div class="grid sm:grid-cols-2 gap-16 pt-28 px-4 lg:px-0">
+            <div class="flex items-center gap-3.5 lg:gap-7">
+              <img class="size-12 lg:size-20 object-cover" src="./assets/img/car1.png" alt="car1">
+              <p class="font-semibold font-exo text-xl">Без долгих пробок</p>
+            </div>
+            <div class="flex items-center gap-3.5 lg:gap-7">
+              <img class="size-12 lg:size-20 object-cover" src="./assets/img/nerves.png" alt="car1">
+              <p class="font-semibold font-exo text-xl">Не тратите нервы на дорогах</p>
+            </div>
+            <div class="flex items-center gap-3.5 lg:gap-7">
+              <img class="size-12 lg:size-20 object-cover" src="./assets/img/time.png" alt="car1">
+              <p class="font-semibold font-exo text-xl">Всегда вовремя</p>
+            </div>
+            <div class="flex items-center gap-3.5 lg:gap-7">
+              <img class="size-12 lg:size-20 object-cover" src="./assets/img/acsept.png" alt="car1">
+              <p class="font-semibold font-exo text-xl">Есть льготные карты</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <!-- Metro Map -->
+      <search class="">
+        <div class="max-w-base mx-auto px-4 lg:px-6">
+          <div class="w-max bg-[#D9D9D9] rounded-full px-2 md:px-3 lg:px-16 py-3 md:py-0 lg:py-3.5 -translate-y-1/2 md:translate-y-0">
+            <h4
+              class="font-exo font-semibold text-black text-xl lg:text-[48px]/[60px]"
+            >
+            Схема метро
+            </h4>
+          </div>
+            <div class="md:max-w-max md:mx-auto -mx-4 mt-4 lg:mt-8 bg-brand-red md:rounded-[67px] lg:rounded-[91px] px-6 md:px-16 lg:px-28 py-10">
+              <img class="w-full max-w-[607px] max-h-[600px] lg:max-h-[868px] object-cover object-top" src="./assets/img/map.png" alt="map">
+            </div>
+            <div class="flex items-center justify-center gap-3 pagination py-4">
+              <button class="size-5 lg:size-7 flex items-center justify-center p-1 border border-brand-red rounded-full">
+                <span class="block  size-3slg:ize-5 bg-brand-red rounded-full" shrink-0></span>                   
+              </button>
+              <button class="size-5 lg:size-7 flex items-center justify-center p-1 border border-brand-red rounded-full">
+                <span class="hidden size-3 lg:size-5 bg-brand-red rounded-full shrink-0"></span>                   
+              </button>
+              <button class="size-5 lg:size-7 flex items-center justify-center p-1 border border-brand-red rounded-full">
+                <span class="hidden size-3 lg:size-5 bg-brand-red rounded-full shrink-0"></span>                   
+              </button>
+            </div>
+            <div class="relative overflow-hidden  -mx-4 mt-4 lg:mt-8 bg-brand-red md:rounded-[67px] lg:rounded-[91px] flex flex-col lg:flex-row items-center lg:items-start justify-between gap-6 p-6 md:p-16 lg:p-28">
+              <h2 class="font-exo font-semibold text-white text-xl lg:text-[48px]/[60px]">Расписание</h2>
+              <div class="relative z-10 w-full max-w-[653px] bg-white rounded-lg overflow-hidden pb-24 lg:pb-[70px]">
+                <div class="flex items-center gap-5 pb-3 border-b">
+                  <img class="size-12 lg:size-[109px]" src="./assets/img/logo.jpeg" alt="logo">
+                  <h4 class="font-ptsans hidden lg:block text-2xl">Метрополитен города Новосибирск</h4>
+                </div>
+                <img class="w-full max-h-[444px]" src="./assets/img/table.jpeg" alt="table">
+              </div>
+              <img class="absolute top-0 left-0 z-0 h-full" src="./assets/icon/path.svg" alt="path">
+            </div>
+        </div>
+      </search>
     </main>
   </body>
 </html>
