@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Photo</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="py-6">
+      <nav
+        class="max-w-base flex items-center justify-between gap-5 mx-auto px-4 lg:px-6"
+      >
+        <a href="#">
+          <img
+            class="h-20"
+            src="./assets/icon/logo-photo.svg"
+            alt="logo-photo"
+          />
+        </a>
+        <div
+          class="flex flex-col lg:flex-row items-center gap-x-[109px] gap-y-4"
+        >
+          <a
+            class="font-roboto font-medium transition duration-300 hover:opacity-75"
+            href="#"
+          >
+            О компании
+          </a>
+          <a
+            class="font-roboto font-medium transition duration-300 hover:opacity-75"
+            href="#"
+          >
+            Корзина
+          </a>
+        </div>
+        <button
+          class="border-2 border-black text-black text-xs flex items-center font-medium py-3 px-3.5 lg:px-12 transition duration-300 hover:bg-black/10"
+        >
+          ВХОД
+        </button>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Hero -->
+      <section class="py-16">
+        <div class="max-w-base mx-auto px-4 lg:px-6">
+          <h1
+            class="font-roboto font-medium text-black text-xl md:text-2xl lg:text-[40px]/[47px]"
+          >
+            Панель администратора
+          </h1>
+          <div class="bg-[#EDEDED] p-12 mt-6 lg:mt-9">
+            <form action="" class="flex flex-col md:flex-row gap-x-9 gap-y-5">
+              <div
+                class="lg:shrink-0 bg-white w-full lg:w-[249px] h-[249px] flex items-center justify-center"
+              >
+                <div>
+                  <label
+                    for="file-input"
+                    class="cursor-pointer inline-block text-black font-medium font-roboto text-2xl"
+                  >
+                    Добавить фото
+                  </label>
+                  <input id="file-input" type="file" class="hidden" />
+                </div>
+              </div>
+              <div class="w-full">
+                <div
+                  class="w-full flex flex-col lg:flex-row justify-between gap-4"
+                >
+                  <div class="lg:max-w-[430px] w-full bg-white">
+                    <input
+                      class="outline-none w-full font-roboto px-5 py-4 font-medium placeholder:text-[#EDEDED] text-brand-primary"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Название"
+                    />
+                  </div>
+                  <div class="lg:max-w-[290px] w-full bg-white">
+                    <input
+                      class="w-full px-5 py-4 outline-none font-roboto font-medium placeholder:text-[#EDEDED] text-brand-primary"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Объем"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="w-full flex flex-col lg:flex-row justify-between gap-4 mt-5"
+                >
+                  <div class="lg:max-w-[290px] w-full bg-white">
+                    <input
+                      class="w-full px-5 py-4 outline-none font-roboto font-medium placeholder:text-[#EDEDED] text-brand-primary"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Объем"
+                    />
+                  </div>
+                  <div class="lg:max-w-[187px] w-full bg-white">
+                    <input
+                      class="outline-none w-full font-roboto px-5 py-4 font-medium placeholder:text-[#EDEDED] text-brand-primary"
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Название"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="bg-brand-red w-full md:hidden font-roboto font-medium text-xl text-white mt-5 py-[18px] px-6 transition duration-300 hover:opacity-75"
+                >
+                  Добавить товар
+                </button>
+                <button
+                  class="font-roboto font-medium transition duration-300 hover:opacity-75 mt-5 lg:mt-24 mx-auto md:mx-0 block"
+                >
+                  Сбросить
+                </button>
+              </div>
+            </form>
+          </div>
+          <button
+            class="md:max-w-[347px] w-full bg-[#E07A7C] text-white font-roboto font-medium text-[32px] p-[30px] mt-14 lg:mt-16 mx-auto block transition duration-300 hover:opacity-75"
+          >
+            Вернуться назад
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-brand-red pt-10 mt-20 lg:mt-16">
+      <div class="max-w-base mx-auto px-4 lg:px-6">
+        <div class="max-w-[350px] w-full mx-auto flex items-center justify-between gap-5">
+          <a
+            class="bg-[#E07A7C] rounded-full size-12 flex items-center justify-center transition duration-300 hover:opacity-75"
+            href="#"
+          >
+            <img
+              class="w-[27px] h-[31px] shrink-0"
+              src="./assets/icon/social-icon-1.svg"
+              alt="social-icon-1"
+            />
+          </a>
+          <a
+            class="bg-[#E07A7C] rounded-full size-12 flex items-center justify-center transition duration-300 hover:opacity-75"
+            href="#"
+          >
+            <img
+              class="size-[25px] shrink-0"
+              src="./assets/icon/social-icon-2.svg"
+              alt="social-icon-2"
+            />
+          </a>
+          <a
+            class="bg-[#E07A7C] rounded-full size-12 flex items-center justify-center transition duration-300 hover:opacity-75"
+            href="#"
+          >
+            <img
+              class="size-[25px] shrink-0"
+              src="./assets/icon/social-icon-3.svg"
+              alt="social-icon-3"
+            />
+          </a>
+          <a
+            class="shrink-0 bg-[#E07A7C] rounded-full size-12 flex items-center justify-center transition duration-300 hover:opacity-75"
+            href="#"
+          >
+            <img
+              class="shrink-0 w-[30px] h-[29px]"
+              src="./assets/icon/social-icon-4.svg"
+              alt="social-icon-4"
+            />
+          </a>
+        </div>
+        <div class="max-w-[280px] mx-auto mt-11">
+          <div class="flex flex-col lg:flex-row gap-5 items-center justify-between">
+            <a class="text-white font-roboto font-medium transition duration-300 hover:opacity-75" href="#">
+              О компании
+            </a>
+            <a class="text-white font-roboto font-medium transition duration-300 hover:opacity-75" href="#">
+              Корзина
+            </a>
+          </div>
+        </div>
+        <div class="max-w-[360px] mx-auto flex flex-col lg:flex-row justify-center items-center gap-5">
+          <p class="font-exo font-semibold text-xl text-white text-center mt-5">(+7 383) 238-81-09</p>
+          <button
+            class="mx-auto   border-2 border-white text-white text-xs flex items-center font-medium py-4 px-6 lg:px-12 transition duration-300 hover:bg-black/10"
+          >
+            ВХОД
+          </button>
+        </div>
+      </div>
+      <div class="bg-[#E07A7C] py-3 mt-2 text-center px-5">
+        <p class="font-roboto font-medium text-white text-xs">Copyright ©2024; Designed by MAKSIM AKSENOV </p>
+      </div>
+    </footer>
+  </body>
+</html>
