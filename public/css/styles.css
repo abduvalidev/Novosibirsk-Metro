@@ -768,6 +768,9 @@ body{
 .max-w-\[360px\]{
   max-width: 360px;
 }
+.max-w-\[1160px\]{
+  max-width: 1160px;
+}
 .shrink-0{
   flex-shrink: 0;
 }
